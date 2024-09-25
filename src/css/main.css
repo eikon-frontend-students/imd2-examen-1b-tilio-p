@@ -15,6 +15,12 @@ h3 {
   font-weight: 400;
 }
 
+h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
 ul {
   padding-left: 20px;
 }
@@ -38,12 +44,6 @@ video {
 .page-title {
   font-size: 40px;
   margin: 40px;
-  text-align: center;
-}
-
-.exercise-title {
-  font-size: 30px;
-  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -75,6 +75,27 @@ video {
 
 /* 01. Sélecteurs CSS */
 
+.selectors h2,
+.selectors h3 {
+  font-family: playfair display;
+}
+
+.section-sport h3 {
+  color: #c1121f;
+}
+
+.section-culture h3 {
+  color: #669bbc;
+}
+
+.section-regions .highlight {
+  font-weight: bold;
+}
+
+.highlight.colored {
+  background: #fdf0d5;
+}
+
 /* 02. Centrer horizontalement */
 
 .link {
@@ -83,6 +104,7 @@ video {
   background: #fdf0d5;
   border: 1px solid #c1121f;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .calltoaction {
@@ -92,6 +114,14 @@ video {
   color: #fdf0d5;
   font-family: "Playfair Display";
   text-transform: uppercase;
+  text-align: center;
+}
+
+.exercise-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
 }
 
 /* 03. Centrer verticalement */
@@ -111,6 +141,23 @@ video {
   background: #780000;
   color: #fdf0d5;
   text-align: center;
+}
+
+.ex3 {
+  display: flex;
+  align-items: start;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 /* 04. Intégration */
