@@ -161,3 +161,47 @@ video {
 }
 
 /* 04. Intégration */
+
+.ex4 {
+  display: flex;
+  flex-direction: column;
+  border-radius: 50px;
+}
+
+.legende {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.1);
+}
+
+.banner {
+  display: flex;
+  gap: 10px;
+  width: 250px;
+  height: 50px;
+  align-items: center;
+}
+
+.legende img {
+  max-width: 20px;
+  max-height: 16px;
+}
+
+.banner h2 {
+  color: white;
+  background-color: #fbbd3c;
+  width: 30px;
+  height: 30px;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.banner p {
+  font-weight: bold;
+}
